@@ -157,6 +157,8 @@ function App() {
               </tr>
             }
             {
+              Data.length > 0 ?
+
               Data.map((detail, index) => {
                 return (
                   detail.id !== SelectedRowID ? 
@@ -164,6 +166,11 @@ function App() {
                     <TrEdit key={detail.id} detail={detail} index={index}/>
                 )
               }) 
+
+              :
+              <tr>
+                <td colSpan={7} style={{textAlign:"center"}}>Data Not available</td>
+              </tr>
           }
           </tbody>
         </table>

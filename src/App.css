@@ -15,6 +15,10 @@ th, td {
   padding: 10px;
 }
 
+tr td:nth-child(1){
+    width: 2%;
+} 
+
 tr td:nth-last-child(2){
     width: 5%;
 }
