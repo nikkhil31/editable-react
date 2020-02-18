@@ -1,0 +1,74 @@
+.App{
+  padding-top: 1em;
+}
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr td:nth-last-child(2){
+    width: 5%;
+}
+
+tr td:nth-last-child(1){
+    width: 5%;
+}
+
+input[type=text] {
+  border: 2px solid rgb(224, 212, 212);
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.btn-add  {
+  background-color: rgb(100, 165, 226); /* Green */
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 205px 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-save  {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button-delete {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
